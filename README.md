@@ -45,7 +45,7 @@ The original [project report](docs/project_report.pdf) documents the methodology
 
 Joy makes up 33.5% of the training set and surprise only 3.6%, so always predicting joy would already score 33.5% accuracy. This is why the models use class-weighted loss and are evaluated on macro F1.
 
-### MLP baseline
+### MLP training curves
 
 ![MLP training curves](outputs/mlp_training_curves.png)
 
@@ -53,11 +53,11 @@ Joy makes up 33.5% of the training set and surprise only 3.6%, so always predict
 
 ![Transformer hyperparameter search](outputs/hyperparameter_search.png)
 
-### Tuned Transformer training
+### Tuned Transformer training curves
 
 ![Tuned Transformer training curves](outputs/transformer_training_curves.png)
 
-### Tuned Transformer errors
+### Tuned Transformer confusion matrix
 
 ![Transformer confusion matrix](outputs/transformer_confusion_matrix.png)
 
